@@ -1,0 +1,44 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#canvas {
+  border: 2px solid #666;
+  cursor: crosshair;
+
+}
+
+.controls {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slider-container label {
+  margin-right: 10px;
+}
